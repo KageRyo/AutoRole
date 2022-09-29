@@ -7,7 +7,7 @@ import RoleID
 import RoleName
 import TOKEN
 
-intents = discord.Intents.default()
+intents=discord.Intents.default()
 intents=discord.Intents().all()
 intents.message_content = True
 intents.members = True
