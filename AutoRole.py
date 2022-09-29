@@ -24,16 +24,6 @@ async def on_ready():
     await bot.change_presence(status=discord.Status.online, activity=game)
 
 @bot.event
-#當有訊息時
-async def on_message(message):
-    #排除自己的訊息，避免陷入無限循環
-    if message.author == bot.user:
-        return
-    #如果包含 peko，機器人回傳 好油哦
-    if message.content == "peko":
-        await message.channel.send("好油哦")
-
-@bot.event
 #當有成員加入（DC群）時
 async def on_member_join(member):
     #給予加入DC群的成員 RoleName.name 的身分組
