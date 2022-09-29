@@ -152,3 +152,5 @@ cython_debug/
 .idea/
 
 TOKEN.py
+.TOKEN.py
+TOKEN

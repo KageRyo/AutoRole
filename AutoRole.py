@@ -1,5 +1,6 @@
 #導入 Discord.py
 from email import message
+from discord.utils import get
 import discord
 
 import RoleName
@@ -40,4 +41,4 @@ async def on_member_join(member):
     #當然這也可以打 await message.channel.send("歡迎加入") 等做出加入DC時發送的訊息
     #await message.channel.send("歡迎加入(XXX)DC群")
 
-bot.run(TOKEN.TOKEN) #TOKEN 袃 Discord Developer 的 BOT 頁面
+bot.run(TOKEN.TOKEN) #TOKEN 袃 Discord Developer 的 BOT 頁面qw
