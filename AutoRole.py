@@ -22,7 +22,7 @@ async def on_ready():
     #確認連結TOKEN的BOT是否有誤
     print('目前登入身份：', bot.user)
     #機器人的遊戲狀態，想設什麼都可以
-    game = discord.Game('正在採琉連')
+    game = discord.Game('AutoRoleBot')
     #機器人的在線狀態
     await bot.change_presence(status=discord.Status.online, activity=game)
 
