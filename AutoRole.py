@@ -8,6 +8,7 @@ import TOKEN
 
 intents = discord.Intents.default()
 intents.message_content = True
+intents.members = True
 
 #client 是我們與 Discord 連結的橋樑
 bot = discord.Client(intents=intents)
