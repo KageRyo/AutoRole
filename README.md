@@ -8,16 +8,14 @@ AutoRole Bot - 在有人加入 DC 群的時候自動給予身分組。
 AutoRole.py
 > 主程式
 
-### 填入自己機器人的TOKEN
+### 配置檔，在這裡設定TOKEN和RoleName or RoleID吧
 
-TOKEN.py
+config.py
+
+*TOKEN*
 > 機器人的TOKEN
 
-### 以下兩項擇一設定
-
-RoleName.py
+*RoleName or RoleID (choose one)*
 
 > 身分組設定（名稱）
-
-RoleID.py
 > 身分組設定（ID）
