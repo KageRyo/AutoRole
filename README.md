@@ -19,3 +19,8 @@ config.py
 
 > 身分組設定（名稱）
 > 身分組設定（ID）
+
+### FuturePlan
+```
+增加ReactionRole功能
+```
