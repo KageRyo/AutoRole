@@ -3,6 +3,11 @@
 
 AutoRole Bot - 在有人加入 DC 群的時候自動給予身分組。
 
+### 套件：
+```
+$pip install discord
+```
+
 ### 主程式，執行的時候請跑這個
 
 AutoRole.py
@@ -20,7 +25,5 @@ config.py
 > 身分組設定（名稱）
 > 身分組設定（ID）
 
-### FuturePlan
-```
-增加ReactionRole功能
-```
+### 未來進度：
++ 增加ReactionRole功能
