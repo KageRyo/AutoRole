@@ -3,10 +3,9 @@ from discord.utils import get
 import discord
 import config
 
-intents=discord.Intents.default()
-intents=discord.Intents().all()
-intents.message_content = True
-intents.members = True
+intents=discord.Intents().all()     # 獲取所有的 Intents 對象
+intents.message_content = True      # 允許讀取消息內容
+intents.members = True              # 允許讀取成員
 
 #bot=discord.Client 是我們與 Discord 連結的橋樑
 bot = discord.Client(intents=intents)
